@@ -1,4 +1,4 @@
-module github.com/nauxliu/terraform-provider-cronitor
+module github.com/nathanstitt/terraform-provider-cronitor
 
 go 1.14
 
@@ -16,6 +16,7 @@ require (
 	github.com/vmihailenco/msgpack v4.0.4+incompatible // indirect
 	go.opencensus.io v0.22.1 // indirect
 	golang.org/x/exp v0.0.0-20191014171548-69215a2ee97e // indirect
+	golang.org/x/tools v0.1.11 // indirect
 	google.golang.org/api v0.11.0 // indirect
 	google.golang.org/appengine v1.6.5 // indirect
 )
