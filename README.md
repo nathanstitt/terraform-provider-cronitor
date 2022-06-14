@@ -1,7 +1,13 @@
 # Terraform Provider for Cronitor
 
-[![Build Status](https://github.com/nauxliu/terraform-provider-cronitor/workflows/Lint/badge.svg)](https://github.com/nauxliu/terraform-provider-cronitor/actions) 
-[![LICENSE](https://img.shields.io/github/license/nauxliu/terraform-provider-cronitor)](https://github.com/nauxliu/terraform-provider-cronitor/blob/master/LICENSE) 
+## Note: I am not the original author of this software. 
+
+I have only forked and built a newer version that supports arm64 on darwin (aka "m1 mac") 
+
+ I may make occasional changes as bugs surface, but the original author [Xiangxuan Liu](https://github.com/nauxliu/terraform-provider-cronitor) seems to have done a fine job with the implementation so hopefully there are few of those.
+
+[![Build Status](https://github.com/nathanstitt/terraform-provider-cronitor/workflows/Lint/badge.svg)](https://github.com/nathanstitt/terraform-provider-cronitor/actions) 
+[![LICENSE](https://img.shields.io/github/license/nathanstitt/terraform-provider-cronitor)](https://github.com/nathanstitt/terraform-provider-cronitor/blob/master/LICENSE) 
 
 Allows you to manage cronitor monitors.
 
@@ -13,8 +19,8 @@ To install this provider, copy and paste this code into your Terraform configura
 terraform {
   required_providers {
     cronitor = {
-      source = "nauxliu/cronitor"
-      version = ">=1.0.3"
+      source = "nathanstitt/cronitor"
+      version = ">=2.0.0"
     }
   }
 }
